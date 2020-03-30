@@ -1,7 +1,7 @@
 describe('RetiredForagerBee class functionality', () => {
   var retiredForagerBee;
 
-  beforeEach(() => retiredForagerBee = new RetiredForagerBee());
+  beforeEach(() => retiredForagerBee = new RetiredForagerBee(40, 'grey', 'gamble', false));
 
   /*  Overwrite methods from superclass  */
 

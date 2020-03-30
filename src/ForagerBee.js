@@ -1,6 +1,6 @@
 class ForagerBee extends Bee {
-  constructor(age = 10, job = 'find pollen', canFly = true, color) {
-    super(age, job, color)
+  constructor(age, color, job, canFly) {
+    super(age, color, job)
     this.canFly = canFly
     this.treasureChest = []
   }

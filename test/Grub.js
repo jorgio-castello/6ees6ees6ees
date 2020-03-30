@@ -1,7 +1,7 @@
 describe('Grub class functionality', () => {
   var grub;
 
-  beforeEach(() => grub = new Grub());
+  beforeEach(() => grub = new Grub(0, 'pink'));
 
   it('should have an `age` property that is set to `0`', () => {
     expect(grub.age).to.equal(0);
